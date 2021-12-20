@@ -1,3 +1,13 @@
+# APP STRUCTURE
+App.js contains Tabs.jsx which has tabs component inside it.
+# APP TEST
+Each component has corresponding test file i.e App.testjs contains test for App.js & Tabs.test.js contains tests for Tabs.jsx
+# CSS FILE
+Considering scope of project, all CSS are in App.css
+# REPO SETUP
+To run this repo, you need to run command npm install
+
+# ##################### DEFAULT README BELOW
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,38 +1,69 @@
-.App {
+h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;  
+  letter-spacing: 0.857143px;
+}
+
+p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.535714px;
+}
+
+span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 24px;
   text-align: center;
+  letter-spacing: 0.607143px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+  margin: 20%;
+  border: 1px solid #E7E7E8;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tabs {
+  padding: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.tabHead {
+  margin-top: 3%;
+  border: 1px none #E7E7E8;
+  border-bottom-style: solid;
+}
+.innerTabs {
+  border: 1px solid #E7E7E8;
 }
 
-.App-link {
-  color: #61dafb;
+.primary { 
+  background: #006DFF;
+}
+.secondary { 
+  background: #8E00FF;
+  border: 2px solid #8E00FF;
+}
+.neutral { 
+  background: #E7E7E8;
+}
+.tab{
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.activeTab {
+  border: 4px none #8E00FF;
+  border-bottom-style: solid;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button {
+  margin-left: 80%;
+  color: #FFF;
+  padding: 6px 16px;
+  border: 2px solid #006DFF;
+  border-radius: 8px;
 }
